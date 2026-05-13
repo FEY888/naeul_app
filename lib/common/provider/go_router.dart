@@ -5,7 +5,7 @@ import 'package:naeul_app/screen/home_screen.dart';
 
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
-    initialLocation: '/',
+    initialLocation: '/home',
     routes: [
       StatefulShellRoute.indexedStack(
         builder: (context, state, navigationShell) {

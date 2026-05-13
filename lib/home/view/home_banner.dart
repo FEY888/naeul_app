@@ -24,7 +24,7 @@ class HomeBanner extends StatelessWidget {
 
     return Container(
       width: double.infinity,
-      height: 370,
+      height: 380,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(28),
         image: DecorationImage(
