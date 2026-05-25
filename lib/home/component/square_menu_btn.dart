@@ -35,6 +35,12 @@ class SquareMenuBtn extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Icon(
+                icon,
+                size: 26,
+                color: color ?? const Color(0xFF2D6135),
+                  ),
+              const SizedBox(height: 5,),
               Text(title, style: TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.w600,
@@ -42,12 +48,7 @@ class SquareMenuBtn extends StatelessWidget {
               ),
                 textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 5,),
-              Icon(
-                icon,
-                size: 26,
-                color: color ?? const Color(0xFF2D6135),
-                  ),
+
             ],
           ),
         ),
